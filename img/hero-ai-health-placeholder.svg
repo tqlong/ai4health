@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">AI4HEALTH hero image placeholder</title>
+  <desc id="desc">Use a credible photo of AI in clinical care, hospital data infrastructure, or a previous AI4Health conference session.</desc>
+  <rect width="1200" height="820" fill="#e8f1ed"/>
+  <rect x="70" y="70" width="1060" height="680" rx="24" fill="#ffffff" stroke="#b8d0c8" stroke-width="4"/>
+  <path d="M170 515 C275 390 377 486 496 338 C602 206 719 282 811 226 C930 154 1016 232 1070 172" fill="none" stroke="#0c766d" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="255" cy="425" r="34" fill="#204d75"/>
+  <circle cx="500" cy="338" r="34" fill="#0c766d"/>
+  <circle cx="808" cy="226" r="34" fill="#b98221"/>
+  <rect x="165" y="575" width="250" height="36" rx="8" fill="#cfe2dc"/>
+  <rect x="165" y="630" width="430" height="24" rx="8" fill="#dbe9e4"/>
+  <rect x="165" y="670" width="330" height="24" rx="8" fill="#dbe9e4"/>
+  <rect x="720" y="545" width="300" height="112" rx="16" fill="#f3f8f6" stroke="#c7dad4" stroke-width="3"/>
+  <text x="600" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#064c48">IMAGE PLACEHOLDER</text>
+  <text x="600" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#35575d">Use real conference, hospital AI, or medical data imagery</text>
+</svg>

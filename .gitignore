@@ -1,0 +1,11 @@
+# macOS metadata and Microsoft Office temporary files
+.DS_Store
+._*
+~$*
+
+# Local agent configuration
+.agents/
+.codex/
+
+# Domain registration receipt with account and billing details
+/docx/Domain AI4Health.docx
