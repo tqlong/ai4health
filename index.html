@@ -90,6 +90,33 @@
       </section>
 
       <section class="section status-band" data-i18n-aria-label="statusLabel" aria-label="Mốc thời gian và đăng ký">
+        <div class="container conference-countdown" id="conferenceCountdown" hidden>
+          <div class="countdown-copy">
+            <p class="countdown-title" id="countdownTitle" data-i18n="countdownTitle">Đếm ngược đến AI4HEALTH 2026</p>
+            <p class="countdown-date">
+              <time id="conferenceStart" datetime="2026-10-23T13:00:00+07:00" data-i18n="countdownDate">Dự kiến 13:00 ngày 23/10/2026 · Giờ Hà Nội (UTC+7)</time>
+            </p>
+          </div>
+          <dl class="countdown-values" id="countdownValues" role="timer" aria-live="off" aria-labelledby="countdownTitle" aria-describedby="conferenceStart">
+            <div>
+              <dt data-i18n="countdownDays">Ngày</dt>
+              <dd data-countdown="days">00</dd>
+            </div>
+            <div>
+              <dt data-i18n="countdownHours">Giờ</dt>
+              <dd data-countdown="hours">00</dd>
+            </div>
+            <div>
+              <dt data-i18n="countdownMinutes">Phút</dt>
+              <dd data-countdown="minutes">00</dd>
+            </div>
+            <div>
+              <dt data-i18n="countdownSeconds">Giây</dt>
+              <dd data-countdown="seconds">00</dd>
+            </div>
+          </dl>
+          <p class="countdown-message" id="countdownMessage" data-i18n="countdownComplete" hidden>Đã đến thời gian dự kiến bắt đầu hội nghị. Vui lòng xem chương trình bên dưới.</p>
+        </div>
         <div class="container status-grid">
           <article>
             <span data-i18n="deadlineLabel">Hạn nhận tóm tắt</span>

@@ -76,6 +76,13 @@ const I18N = {
     languageLabel: "Language",
     actionsLabel: "Conference actions",
     statusLabel: "Key dates and registration",
+    countdownTitle: "Countdown to AI4HEALTH 2026",
+    countdownDate: "Tentatively 23 October 2026 at 13:00 · Hanoi time (UTC+7)",
+    countdownDays: "Days",
+    countdownHours: "Hours",
+    countdownMinutes: "Minutes",
+    countdownSeconds: "Seconds",
+    countdownComplete: "The scheduled conference start has been reached. Please see the program below.",
     qrAlt: "QR code for presentation registration",
     memberLabel: "members",
     plenaryLabel: "Plenary theme",
@@ -157,6 +164,13 @@ const I18N = {
     languageLabel: "Ngôn ngữ",
     actionsLabel: "Đăng ký và thông tin hội nghị",
     statusLabel: "Mốc thời gian và đăng ký",
+    countdownTitle: "Đếm ngược đến AI4HEALTH 2026",
+    countdownDate: "Dự kiến 13:00 ngày 23/10/2026 · Giờ Hà Nội (UTC+7)",
+    countdownDays: "Ngày",
+    countdownHours: "Giờ",
+    countdownMinutes: "Phút",
+    countdownSeconds: "Giây",
+    countdownComplete: "Đã đến thời gian dự kiến bắt đầu hội nghị. Vui lòng xem chương trình bên dưới.",
     qrAlt: "Mã QR đăng ký báo cáo",
     memberLabel: "thành viên",
     plenaryLabel: "Chủ đề toàn thể",
@@ -795,3 +809,38 @@ document.addEventListener("keydown", (event) => {
 });
 
 render(state.lang);
+
+const countdownPanel = document.getElementById("conferenceCountdown");
+const countdownValues = document.getElementById("countdownValues");
+const countdownMessage = document.getElementById("countdownMessage");
+const conferenceStart = Date.parse(document.getElementById("conferenceStart").dateTime);
+const countdownFields = [...document.querySelectorAll("[data-countdown]")];
+let countdownInterval;
+
+function updateCountdown() {
+  const remainingMilliseconds = conferenceStart - Date.now();
+  const totalSeconds = Math.max(0, Math.ceil(remainingMilliseconds / 1000));
+  const remaining = {
+    days: Math.floor(totalSeconds / 86400),
+    hours: Math.floor((totalSeconds % 86400) / 3600),
+    minutes: Math.floor((totalSeconds % 3600) / 60),
+    seconds: totalSeconds % 60,
+  };
+
+  countdownFields.forEach((node) => {
+    const value = String(remaining[node.dataset.countdown]).padStart(2, "0");
+    if (node.textContent !== value) node.textContent = value;
+  });
+
+  const complete = remainingMilliseconds <= 0;
+  countdownValues.hidden = complete;
+  countdownMessage.hidden = !complete;
+  countdownPanel.hidden = false;
+  if (complete) clearInterval(countdownInterval);
+}
+
+if (Number.isFinite(conferenceStart)) {
+  countdownInterval = setInterval(updateCountdown, 1000);
+  updateCountdown();
+  document.addEventListener("visibilitychange", updateCountdown);
+}
