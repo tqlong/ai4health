@@ -6,29 +6,29 @@ const I18N = {
     navCfp: "Call for Abstracts",
     navCommittees: "Committees",
     navContact: "Contact",
-    heroEyebrow: "Scientific conference · 23–24 October 2026 (tentative)",
+    heroEyebrow: "Scientific conference · 23–24 October 2026",
     heroSubtitle: "AI in Healthcare: From Vision to Impact",
     heroLead:
       "AI4HEALTH 2026 brings together clinicians, researchers, policymakers, and technology partners in Hanoi to share experience deploying AI, evaluate its impact, and identify priorities for Vietnam's health system.",
-    submitForm: "Register a presentation",
-    submitEmail: "Email abstract and bio",
+    submitForm: "Register to attend or present",
+    submitEmail: "Email your submission",
     viewProgram: "View program",
     viewCfp: "Submission guidelines",
     whenLabel: "When",
-    whenValue: "23–24 October 2026 (tentative)",
+    whenValue: "23–24 October 2026",
     whereLabel: "Where",
-    whereValue: "Hanoi, Vietnam · Venue to be announced",
+    whereValue: "144 Xuan Thuy, Cau Giay, Hanoi (tentative)",
     formatLabel: "At a glance",
-    formatValue: "1.5 days · 500–700 delegates expected",
+    formatValue: "1.5 days · 500–700 in-person delegates expected",
     deadlineLabel: "Abstract deadline",
     deadlineValue: "23 September 2026",
-    deadlineText: "Submit your abstract and short biography by this date.",
-    reportRegistrationLink: "Presentation registration form",
+    deadlineText: "Submit an abstract of up to 300 words before 23 September 2026. Full paper and short biography: before 1 October 2026.",
+    reportRegistrationLink: "Attendance and presentation registration",
     submissionLabel: "Email submissions",
-    submissionText: "Complete the registration form, then email your abstract and short biography as .docx or .pdf files.",
+    submissionText: "Register online, then send your full paper and short biography as .docx or .pdf files before 1 October 2026.",
     registrationLabel: "Delegate registration",
-    registrationValue: "To be announced",
-    registrationText: "Details on how to attend the conference will be announced here.",
+    registrationValue: "Before 23 September 2026",
+    registrationText: "Use the online form to register for attendance or a presentation.",
     overviewKicker: "Overview",
     overviewTitle: "Bringing AI into healthcare practice",
     overviewP1:
@@ -38,16 +38,17 @@ const I18N = {
     programKicker: "Preliminary program",
     programTitle: "Clinical applications, evidence, and implementation",
     programIntro:
-      "The 1.5-day program is preliminary. Session times and chairs will be updated as confirmed. All times are local to Hanoi (UTC+7).",
+      "Draft program from Announcement No. 2. The pre-conference and plenary sessions are at Nguyen Van Dao Hall; parallel sessions are in Building D2, VNU, 144 Xuan Thuy, Hanoi. All times are Hanoi time (UTC+7).",
     tracksKicker: "Scientific themes",
-    tracksTitle: "Plenary themes and parallel-track topics",
-    tracksIntro: "Four plenary themes and ten parallel-track topics guide the call for abstracts.",
+    tracksTitle: "Topics for submitted presentations",
+    tracksIntro: "Fourteen topics are open for submissions. The draft program includes six parallel sessions in two afternoon time slots.",
     cfpKicker: "Call for abstracts",
-    cfpTitle: "Submit your abstract and short biography by 23 September 2026",
-    formQrText: "Complete both steps: register your presentation using the form or QR code, then email your abstract and short biography.",
-    viewInvitation: "Read the invitation (PDF)",
-    invitationNote: "Please use the updated deadline above; the invitation PDF lists an earlier date.",
-    qrNote: "Scan to register a presentation.",
+    cfpTitle: "Submit your abstract before 23 September 2026",
+    formQrText: "Register and submit your abstract before 23 September. Email your full paper and short biography before 1 October 2026.",
+    viewInvitation: "Announcement No. 2 (English PDF)",
+    invitationHref: "asset/TB lần 2 vv mời tham dự & báo cáo_ENGLISH.pdf",
+    invitationNote: "Invitation to attend and present, including submission deadlines and the draft program.",
+    qrNote: "Scan to register to attend or present.",
     deliverablesKicker: "Expected outcomes",
     deliverablesTitle: "Planned conference outcomes",
     committeesKicker: "Conference organization",
@@ -68,7 +69,7 @@ const I18N = {
       "Head, Office of Scientific Management and Development Cooperation, University of Medicine and Pharmacy, Vietnam National University, Hanoi",
     websiteLabel: "Conference website",
     pageTitle: "AI4HEALTH 2026 | AI in Healthcare: From Vision to Impact",
-    pageDescription: "AI4HEALTH 2026: AI in Healthcare, From Vision to Impact. Tentatively 23–24 October 2026 in Hanoi, Vietnam. Abstract and biography deadline: 23 September 2026.",
+    pageDescription: "AI4HEALTH 2026, 23–24 October in Hanoi. Register and submit abstracts before 23 September 2026; full papers and short biographies before 1 October 2026. Read Announcement No. 2.",
     skipLink: "Skip to content",
     homeLabel: "AI4HEALTH 2026 home",
     menuLabel: "Toggle navigation menu",
@@ -83,10 +84,9 @@ const I18N = {
     countdownMinutes: "Minutes",
     countdownSeconds: "Seconds",
     countdownComplete: "The scheduled conference start has been reached. Please see the program below.",
-    qrAlt: "QR code for presentation registration",
+    qrAlt: "QR code for attendance and presentation registration",
     memberLabel: "members",
-    plenaryLabel: "Plenary theme",
-    trackLabel: "Parallel track",
+    topicLabel: "Presentation topic",
   },
   vi: {
     brandLine: "Từ tầm nhìn đến tác động thực tiễn",
@@ -95,29 +95,29 @@ const I18N = {
     navCfp: "Mời gửi báo cáo",
     navCommittees: "Các ban",
     navContact: "Liên hệ",
-    heroEyebrow: "Hội nghị khoa học · Dự kiến 23–24/10/2026",
+    heroEyebrow: "Hội nghị khoa học · 23–24/10/2026",
     heroSubtitle: "AI trong y tế: Từ tầm nhìn đến tác động thực tiễn",
     heroLead:
       "AI4HEALTH 2026 quy tụ các bác sĩ, nhà nghiên cứu, nhà hoạch định chính sách và đối tác công nghệ tại Hà Nội để chia sẻ kinh nghiệm triển khai AI, đánh giá tác động và xác định ưu tiên cho hệ thống y tế Việt Nam.",
-    submitForm: "Đăng ký báo cáo",
-    submitEmail: "Gửi tóm tắt và tiểu sử",
+    submitForm: "Đăng ký tham dự và báo cáo",
+    submitEmail: "Gửi bài qua email",
     viewProgram: "Xem chương trình",
     viewCfp: "Hướng dẫn gửi bài",
     whenLabel: "Thời gian",
-    whenValue: "Dự kiến 23–24/10/2026",
+    whenValue: "23–24/10/2026",
     whereLabel: "Địa điểm",
-    whereValue: "Hà Nội, Việt Nam · Địa điểm cụ thể sẽ được thông báo",
+    whereValue: "144 Xuân Thủy, Cầu Giấy, Hà Nội (dự kiến)",
     formatLabel: "Quy mô",
-    formatValue: "1,5 ngày · Dự kiến 500–700 đại biểu",
+    formatValue: "1,5 ngày · Dự kiến 500–700 đại biểu trực tiếp",
     deadlineLabel: "Hạn nhận tóm tắt",
     deadlineValue: "23/9/2026",
-    deadlineText: "Vui lòng gửi bài tóm tắt và tiểu sử ngắn chậm nhất vào ngày này.",
-    reportRegistrationLink: "Biểu mẫu đăng ký báo cáo",
+    deadlineText: "Gửi bài tóm tắt tối đa 300 từ trước ngày 23/9/2026. Bài toàn văn và tiểu sử ngắn: trước ngày 01/10/2026.",
+    reportRegistrationLink: "Biểu mẫu đăng ký tham dự và báo cáo",
     submissionLabel: "Gửi bài qua email",
-    submissionText: "Hoàn thành biểu mẫu đăng ký, sau đó gửi bài tóm tắt và tiểu sử ngắn qua email, dưới dạng .docx hoặc .pdf.",
+    submissionText: "Đăng ký trực tuyến, sau đó gửi bài toàn văn và tiểu sử ngắn dạng .docx hoặc .pdf trước ngày 01/10/2026.",
     registrationLabel: "Đăng ký tham dự",
-    registrationValue: "Sẽ thông báo sau",
-    registrationText: "Hướng dẫn đăng ký tham dự hội nghị sẽ được cập nhật tại đây.",
+    registrationValue: "Trước ngày 23/9/2026",
+    registrationText: "Điền biểu mẫu trực tuyến để đăng ký tham dự hoặc báo cáo tại hội nghị.",
     overviewKicker: "Tổng quan",
     overviewTitle: "Đưa AI vào thực tiễn y tế",
     overviewP1:
@@ -127,16 +127,17 @@ const I18N = {
     programKicker: "Chương trình dự kiến",
     programTitle: "Ứng dụng lâm sàng, bằng chứng và triển khai",
     programIntro:
-      "Chương trình dự kiến kéo dài 1,5 ngày. Thời gian và chủ tọa các phiên sẽ được cập nhật sau khi xác nhận. Lịch trình sử dụng giờ Hà Nội (UTC+7).",
+      "Chương trình dự kiến theo Thông báo lần 2. Phiên tiền hội nghị và toàn thể tại Hội trường Nguyễn Văn Đạo; các phiên chuyên đề song song tại Nhà D2, ĐHQGHN, 144 Xuân Thủy, Hà Nội. Lịch trình sử dụng giờ Hà Nội (UTC+7).",
     tracksKicker: "Các chủ đề khoa học",
-    tracksTitle: "Chủ đề toàn thể và chuyên đề song song",
-    tracksIntro: "Hội nghị mời gửi bài tóm tắt theo bốn chủ đề toàn thể và mười chuyên đề song song.",
+    tracksTitle: "Các chủ đề mời báo cáo",
+    tracksIntro: "Hội nghị mời gửi bài theo 14 chủ đề. Chương trình dự kiến có sáu phiên chuyên đề song song, chia thành hai khung giờ buổi chiều.",
     cfpKicker: "Mời gửi tóm tắt báo cáo",
-    cfpTitle: "Gửi bài tóm tắt và tiểu sử ngắn chậm nhất ngày 23/9/2026",
-    formQrText: "Vui lòng hoàn thành cả hai bước: đăng ký báo cáo qua biểu mẫu hoặc mã QR, sau đó gửi bài tóm tắt và tiểu sử ngắn qua email.",
-    viewInvitation: "Xem thư mời (PDF)",
-    invitationNote: "Vui lòng áp dụng hạn nộp mới nêu trên; thư mời PDF ghi hạn nộp cũ.",
-    qrNote: "Quét mã để đăng ký báo cáo.",
+    cfpTitle: "Gửi bài tóm tắt trước ngày 23/9/2026",
+    formQrText: "Đăng ký và gửi bài tóm tắt trước ngày 23/9. Gửi bài toàn văn và tiểu sử ngắn qua email trước ngày 01/10/2026.",
+    viewInvitation: "Thông báo lần 2 (PDF tiếng Việt)",
+    invitationHref: "asset/TB lần 2 vv mời tham dự & báo cáo_Quý Đại biểu.pdf",
+    invitationNote: "Thông báo mời tham dự và báo cáo, kèm các mốc gửi bài và chương trình dự kiến.",
+    qrNote: "Quét mã để đăng ký tham dự và báo cáo.",
     deliverablesKicker: "Kết quả dự kiến",
     deliverablesTitle: "Kết quả dự kiến của hội nghị",
     committeesKicker: "Tổ chức",
@@ -156,7 +157,7 @@ const I18N = {
     contactRole: "Trưởng Phòng Quản lý khoa học và Hợp tác phát triển, Trường Đại học Y Dược, ĐHQGHN",
     websiteLabel: "Trang web hội nghị",
     pageTitle: "AI4HEALTH 2026 | AI trong y tế: Từ tầm nhìn đến tác động thực tiễn",
-    pageDescription: "AI4HEALTH 2026: AI trong y tế, Từ tầm nhìn đến tác động thực tiễn. Dự kiến 23–24/10/2026 tại Hà Nội. Hạn gửi bài tóm tắt và tiểu sử ngắn: 23/9/2026.",
+    pageDescription: "AI4HEALTH 2026, ngày 23–24/10 tại Hà Nội. Đăng ký và gửi tóm tắt trước 23/9/2026; toàn văn và tiểu sử ngắn trước 01/10/2026. Xem Thông báo lần 2.",
     skipLink: "Chuyển đến nội dung chính",
     homeLabel: "Trang chủ AI4HEALTH 2026",
     menuLabel: "Mở hoặc đóng trình đơn điều hướng",
@@ -171,10 +172,9 @@ const I18N = {
     countdownMinutes: "Phút",
     countdownSeconds: "Giây",
     countdownComplete: "Đã đến thời gian dự kiến bắt đầu hội nghị. Vui lòng xem chương trình bên dưới.",
-    qrAlt: "Mã QR đăng ký báo cáo",
+    qrAlt: "Mã QR đăng ký tham dự và báo cáo",
     memberLabel: "thành viên",
-    plenaryLabel: "Chủ đề toàn thể",
-    trackLabel: "Chuyên đề song song",
+    topicLabel: "Chủ đề báo cáo",
   },
 };
 
@@ -197,27 +197,31 @@ const CONTENT = {
     program: [
       {
         title: "Day 1 · 23 October 2026",
-        note: "Pre-conference afternoon: AI in practice and pilot design",
+        note: "Pre-conference: AI in practice and implementation readiness. Nguyen Van Dao Hall, VNU, 144 Xuan Thuy, Hanoi.",
         sessions: [
-          ["13:00-13:30", "Delegate check-in and AI Health Expo opening", "Welcome, exhibition opening, and demonstrations of clinical AI, data systems, and digital health technologies."],
-          ["13:30-15:00", "Session 1: AI in clinical practice", "Applications in imaging, cancer detection and management, infectious diseases, and clinical workflows. Chair to be confirmed."],
-          ["15:00-15:15", "Coffee Break", "Networking interval."],
-          ["15:15-16:30", "Session 2: From data to deployment", "Data readiness, electronic medical records (EMR), imaging systems (PACS), HL7/FHIR interoperability, and lessons from hospital implementation. Chair to be confirmed."],
-          ["16:30-17:30", "High-level dialogue: From pilot to policy", "By invitation: discussion with health authorities, international organizations, technology experts, and hospital leaders."],
+          ["13:00–13:30", "Delegate reception and exhibition tour", "Visit the AI in healthcare exhibition."],
+          ["13:30–13:35", "Pre-conference introduction"],
+          ["13:35–15:00", "Session 1: AI in medical and pharmaceutical practice", "2026 update."],
+          ["15:00–15:15", "Tea break"],
+          ["15:15–16:45", "Session 2: AI in research and health systems"],
         ],
       },
       {
         title: "Day 2 · 24 October 2026",
-        note: "Main conference: plenary sessions, planned launches, parallel tracks, and panel discussion",
+        note: "Morning plenary sessions at Nguyen Van Dao Hall; afternoon parallel sessions in Building D2, VNU, 144 Xuan Thuy, Hanoi.",
         sessions: [
-          ["07:30-08:00", "Delegate check-in and exhibition", "Welcome and exhibition visits."],
-          ["08:00-08:30", "Opening Ceremony", "Leaders from the Ministry of Health, Vietnam National University, Hanoi, and international organizations."],
-          ["08:30-11:45", "Plenary Sessions", "AI and health system transformation; data as health infrastructure; from AI models to health impact; Vietnam AI Health priorities 2026-2030."],
-          ["11:45-12:15", "Planned initiative launches", "AI Health Pilot Program 2026–2027, AI Health Sandbox Vietnam Phase 1, and AI Deployment Guidelines for Vietnam."],
-          ["12:15-13:30", "Lunch & Networking", "Networking interval."],
-          ["Afternoon", "Parallel Tracks", "Ten tracks covering national systems, primary care, clinical practice, infectious diseases, precision medicine, HTA, governance, workforce, industry, and sandbox implementation."],
-          ["16:00-16:45", "High-Level Panel Discussion", "What should Vietnam pilot first before scaling AI?"],
-          ["16:45-17:15", "Closing Session", "Conference summary, AI Health Impact Report 2026, and AI4Health 2026 Declaration."],
+          ["07:30–08:00", "Delegate reception and exhibition tour", "Visit the AI in healthcare exhibition."],
+          ["08:00–08:30", "Opening ceremony"],
+          ["08:30–10:00", "Plenary 1: AI in health systems", "From potential to practical deployment."],
+          ["10:00–10:15", "Tea break"],
+          ["10:15–11:45", "Plenary 2: From AI performance to proven impact"],
+          ["13:30–14:40", "Parallel sessions 1–3", "1. AI in clinical practice; 2. AI for primary care, public health, and mental health; 3. Data, digital infrastructure, and AI integration in health systems."],
+          ["14:40–14:55", "Tea break"],
+          ["14:55–16:05", "Parallel sessions 4–6", "4. AI in precision medicine, diagnostics, and pharmacy; 5. AI in medical education and health workforce development; 6. Governance, safety, and value of healthcare AI."],
+          ["16:05–16:15", "Tea break"],
+          ["16:15–16:27", "Scientific synthesis of the six parallel sessions"],
+          ["16:27–16:35", "AI4Health 2026 call to action"],
+          ["16:35–16:40", "Closing ceremony"],
         ],
       },
     ],
@@ -241,6 +245,7 @@ const CONTENT = {
       {
         title: "Abstract requirements",
         items: [
+          "Submit your abstract before 23 September 2026.",
           "Provide your abstract in both Vietnamese and English.",
           "Maximum length: 300 words.",
           "Include title, authors, affiliations, corresponding author, email, and phone number.",
@@ -248,8 +253,9 @@ const CONTENT = {
         ],
       },
       {
-        title: "Short bio requirements",
+        title: "Full paper and short biography",
         items: [
+          "Email your full paper and short biography in .docx or .pdf format before 1 October 2026.",
           "Full name with academic title or degree.",
           "Position and responsibilities.",
           "Specialist field, training and work history.",
@@ -260,8 +266,9 @@ const CONTENT = {
       {
         title: "How to submit",
         items: [
-          "Step 1: Register your presentation using the online form or QR code.",
-          "Step 2: Email your abstract and short biography as .docx or .pdf files to qlkhhtpt.ump@vnu.edu.vn by 23 September 2026.",
+          "Step 1: Register to attend or present using the online form or QR code before 23 September 2026.",
+          "Step 2: Speakers must submit an abstract of up to 300 words before 23 September 2026.",
+          "Step 3: Email your full paper and short biography as .docx or .pdf files to qlkhhtpt.ump@vnu.edu.vn before 1 October 2026.",
           "For assistance, contact Assoc. Prof. Dr. Vũ Thị Thơm at +84 377 968 818 or thomtbk5@gmail.com.",
         ],
       },
@@ -293,27 +300,31 @@ const CONTENT = {
     program: [
       {
         title: "Ngày 1 · 23/10/2026",
-        note: "Chiều tiền hội nghị: AI trong thực tiễn và thiết kế thí điểm",
+        note: "Tiền hội nghị: AI trong thực tiễn và sẵn sàng triển khai. Hội trường Nguyễn Văn Đạo, ĐHQGHN, 144 Xuân Thủy, Hà Nội.",
         sessions: [
-          ["13:00-13:30", "Đón tiếp đại biểu và khai mạc AI Health Expo", "Đón tiếp, khai mạc triển lãm và trình diễn công nghệ AI lâm sàng, hệ thống dữ liệu và y tế số."],
-          ["13:30-15:00", "Phiên 1: AI trong thực hành lâm sàng", "Các ứng dụng AI trong chẩn đoán hình ảnh, phát hiện và quản lý ung thư, bệnh truyền nhiễm và quy trình lâm sàng. Chủ tọa chờ xác nhận."],
-          ["15:00-15:15", "Nghỉ giải lao", "Giao lưu, kết nối đại biểu."],
-          ["15:15-16:30", "Phiên 2: Từ dữ liệu đến triển khai", "Mức độ sẵn sàng của dữ liệu, bệnh án điện tử (EMR), hệ thống hình ảnh (PACS), khả năng liên thông HL7/FHIR và bài học triển khai tại bệnh viện. Chủ tọa chờ xác nhận."],
-          ["16:30-17:30", "Đối thoại cấp cao: Từ thí điểm đến chính sách", "Dành cho đại biểu được mời: thảo luận với Bộ Y tế, tổ chức quốc tế, chuyên gia công nghệ và lãnh đạo bệnh viện."],
+          ["13:00–13:30", "Đón tiếp đại biểu và tham quan triển lãm", "Tham quan khu trưng bày AI trong y tế."],
+          ["13:30–13:35", "Giới thiệu phiên tiền hội nghị"],
+          ["13:35–15:00", "Phiên 1: AI trong thực hành Y – Dược", "Cập nhật năm 2026."],
+          ["15:00–15:15", "Giải lao"],
+          ["15:15–16:45", "Phiên 2: AI trong nghiên cứu và hệ thống y tế"],
         ],
       },
       {
         title: "Ngày 2 · 24/10/2026",
-        note: "Hội nghị chính: phiên toàn thể, dự kiến công bố sáng kiến, chuyên đề song song và tọa đàm",
+        note: "Buổi sáng: phiên toàn thể tại Hội trường Nguyễn Văn Đạo. Buổi chiều: chuyên đề song song tại Nhà D2, ĐHQGHN, 144 Xuân Thủy, Hà Nội.",
         sessions: [
-          ["07:30-08:00", "Đón tiếp đại biểu và triển lãm", "Đón tiếp đại biểu và tham quan triển lãm."],
-          ["08:00-08:30", "Khai mạc", "Lãnh đạo Bộ Y tế, Đại học Quốc gia Hà Nội và đại diện tổ chức quốc tế."],
-          ["08:30-11:45", "Các phiên toàn thể", "AI và chuyển đổi hệ thống y tế; dữ liệu như hạ tầng y tế; từ mô hình AI đến tác động y tế; ưu tiên AI y tế Việt Nam 2026-2030."],
-          ["11:45-12:15", "Dự kiến công bố các sáng kiến", "Chương trình thí điểm AI y tế 2026–2027, AI Health Sandbox Vietnam giai đoạn 1 và hướng dẫn triển khai AI tại Việt Nam."],
-          ["12:15-13:30", "Ăn trưa và giao lưu", "Kết nối đại biểu."],
-          ["Buổi chiều", "Các phiên chuyên đề song song", "Mười nhóm chủ đề về hệ thống y tế quốc gia, y tế cơ sở, lâm sàng, bệnh truyền nhiễm, y học chính xác, đánh giá công nghệ y tế, quản trị, nhân lực, công nghiệp và cơ chế thử nghiệm AI."],
-          ["16:00-16:45", "Tọa đàm cấp cao", "Việt Nam nên thí điểm điều gì trước khi nhân rộng AI?"],
-          ["16:45-17:15", "Bế mạc", "Tổng kết hội nghị, AI Health Impact Report 2026 và Tuyên bố AI4Health 2026."],
+          ["07:30–08:00", "Đón tiếp đại biểu và tham quan triển lãm", "Tham quan khu trưng bày AI trong y tế."],
+          ["08:00–08:30", "Lễ khai mạc"],
+          ["08:30–10:00", "Phiên toàn thể 1: AI trong hệ thống y tế", "Từ tiềm năng đến triển khai thực tế."],
+          ["10:00–10:15", "Giải lao"],
+          ["10:15–11:45", "Phiên toàn thể 2: Từ hiệu năng AI đến tác động được kiểm chứng"],
+          ["13:30–14:40", "Các phiên chuyên đề song song 1–3", "1. AI trong thực hành lâm sàng; 2. AI cho y tế cơ sở, sức khỏe cộng đồng và sức khỏe tâm thần; 3. Dữ liệu, hạ tầng số và tích hợp AI trong hệ thống y tế."],
+          ["14:40–14:55", "Giải lao"],
+          ["14:55–16:05", "Các phiên chuyên đề song song 4–6", "4. AI trong y học chính xác, chẩn đoán và Dược; 5. AI trong giáo dục y khoa và phát triển nhân lực y tế; 6. Quản trị, an toàn và giá trị của AI y tế."],
+          ["16:05–16:15", "Giải lao"],
+          ["16:15–16:27", "Tổng hợp khoa học sáu phiên chuyên đề"],
+          ["16:27–16:35", "Thông điệp hành động AI4Health 2026"],
+          ["16:35–16:40", "Bế mạc hội nghị"],
         ],
       },
     ],
@@ -337,6 +348,7 @@ const CONTENT = {
       {
         title: "Yêu cầu bài tóm tắt",
         items: [
+          "Gửi bài tóm tắt trước ngày 23/9/2026.",
           "Cung cấp bài tóm tắt bằng cả tiếng Việt và tiếng Anh.",
           "Dung lượng tối đa: 300 từ.",
           "Có tiêu đề, tác giả, đơn vị công tác, tác giả liên hệ, email và số điện thoại.",
@@ -344,8 +356,9 @@ const CONTENT = {
         ],
       },
       {
-        title: "Yêu cầu tiểu sử ngắn",
+        title: "Bài toàn văn và tiểu sử ngắn",
         items: [
+          "Gửi bài toàn văn và tiểu sử ngắn qua email, dạng .docx hoặc .pdf, trước ngày 01/10/2026.",
           "Họ tên đầy đủ, gồm học hàm/học vị.",
           "Chức danh, chức vụ.",
           "Lĩnh vực chuyên môn, quá trình đào tạo và công tác.",
@@ -356,8 +369,9 @@ const CONTENT = {
       {
         title: "Cách gửi bài",
         items: [
-          "Bước 1: Đăng ký báo cáo qua biểu mẫu trực tuyến hoặc mã QR.",
-          "Bước 2: Gửi bài tóm tắt và tiểu sử ngắn dưới dạng .docx hoặc .pdf tới qlkhhtpt.ump@vnu.edu.vn chậm nhất ngày 23/9/2026.",
+          "Bước 1: Đăng ký tham dự hoặc báo cáo qua biểu mẫu trực tuyến hoặc mã QR trước ngày 23/9/2026.",
+          "Bước 2: Báo cáo viên gửi bài tóm tắt tối đa 300 từ trước ngày 23/9/2026.",
+          "Bước 3: Gửi bài toàn văn và tiểu sử ngắn dạng .docx hoặc .pdf tới qlkhhtpt.ump@vnu.edu.vn trước ngày 01/10/2026.",
           "Liên hệ PGS. TS. Vũ Thị Thơm qua 0377968818 hoặc thomtbk5@gmail.com để biết thêm chi tiết.",
         ],
       },
@@ -683,7 +697,7 @@ function renderProgram(lang) {
       const session = el("div", "session");
       session.append(el("time", "", time));
       session.append(el("strong", "", title));
-      session.append(el("p", "", text));
+      if (text) session.append(el("p", "", text));
       list.append(session);
     });
     article.append(list);
@@ -745,7 +759,7 @@ function render(lang) {
     const key = node.dataset.i18n;
     node.textContent = I18N[lang][key] || I18N.en[key] || "";
   });
-  ["aria-label", "alt", "content"].forEach((attribute) => {
+  ["aria-label", "alt", "content", "href"].forEach((attribute) => {
     document.querySelectorAll(`[data-i18n-${attribute}]`).forEach((node) => {
       const key = node.getAttribute(`data-i18n-${attribute}`);
       node.setAttribute(attribute, I18N[lang][key] || I18N.en[key] || "");
@@ -756,9 +770,7 @@ function render(lang) {
     button.setAttribute("aria-pressed", String(button.dataset.lang === lang));
   });
   renderCards("objectives", CONTENT[lang].objectives);
-  renderCards("topicsGrid", CONTENT[lang].topics, (index) =>
-    index < 4 ? I18N[lang].plenaryLabel : I18N[lang].trackLabel
-  );
+  renderCards("topicsGrid", CONTENT[lang].topics, () => I18N[lang].topicLabel);
   renderCards("deliverablesGrid", CONTENT[lang].deliverables);
   renderProgram(lang);
   renderRequirements(lang);
