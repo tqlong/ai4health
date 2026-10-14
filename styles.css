@@ -584,7 +584,7 @@ h3 {
 
 .invitation-pages {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 1rem;
 }
 
@@ -595,10 +595,6 @@ h3 {
   background: var(--surface);
   box-shadow: var(--shadow);
   overflow: hidden;
-}
-
-.invitation-page:first-child {
-  grid-column: 1 / -1;
 }
 
 .invitation-page a {
@@ -881,9 +877,6 @@ td {
 }
 
 @media (max-width: 640px) {
-  .invitation-pages {
-    grid-template-columns: 1fr;
-  }
 
   .conference-countdown {
     padding: 1.2rem;
