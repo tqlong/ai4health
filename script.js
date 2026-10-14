@@ -20,7 +20,6 @@ const I18N = {
       "The official invitation letter includes the detailed program for both days and the registration QR code.",
     programInvitationLink: "Download the invitation letter (PDF, Vietnamese)",
     invitationGalleryTitle: "Invitation letter",
-    invitationGalleryIntro: "The five pages of the official invitation letter. Click a page to open it at full size.",
     invitationPage1Caption: "Invitation cover with registration QR code",
     invitationPage2Caption: "Friday 23 October afternoon: pre-conference sessions, and the invitation",
     invitationPage3Caption: "Saturday 24 October: morning plenary sessions and afternoon parallel session (Room 902, Building D2)",
@@ -52,10 +51,10 @@ const I18N = {
       "Building on the AI4Health 2025 Consensus, AI4HEALTH 2026 focuses on implementing and evaluating AI in Vietnam's health system.",
     overviewP2:
       "Participants will examine clinical, economic, and social outcomes, share lessons from pilot projects, and explore cooperation across government, universities, hospitals, businesses, and international organizations.",
-    programKicker: "Preliminary program",
+    programKicker: "Program",
     programTitle: "Clinical applications, evidence, and implementation",
     programIntro:
-      "Draft program from Announcement No. 2. The pre-conference and plenary sessions are at Nguyen Van Dao Hall; parallel sessions are in Building D2, VNU, 144 Xuan Thuy, Hanoi. All times are Hanoi time (UTC+7).",
+      "Official program as published in the invitation letter. The pre-conference and plenary sessions are at Nguyen Van Dao Hall; parallel sessions are in Building D2, VNU, 144 Xuan Thuy, Hanoi. All times are Hanoi time (UTC+7).",
     tracksKicker: "Scientific themes",
     tracksTitle: "Topics for submitted presentations",
     tracksIntro: "Fourteen topics are open for submissions. The draft program includes six parallel sessions in two afternoon time slots.",
@@ -126,7 +125,6 @@ const I18N = {
       "Giấy mời chính thức kèm chương trình chi tiết hai ngày và mã QR đăng ký tham dự.",
     programInvitationLink: "Tải Giấy mời hội nghị (PDF)",
     invitationGalleryTitle: "Giấy mời hội nghị",
-    invitationGalleryIntro: "Năm trang của Giấy mời chính thức. Nhấn vào từng trang để xem ở kích thước đầy đủ.",
     invitationPage1Caption: "Bìa Giấy mời kèm mã QR đăng ký",
     invitationPage2Caption: "Chiều thứ Sáu 23/10: Phiên tiền hội nghị và thư mời",
     invitationPage3Caption: "Thứ Bảy 24/10: Phiên toàn thể buổi sáng và phiên chuyên đề buổi chiều (Hội trường 902 Nhà D2)",
@@ -158,10 +156,10 @@ const I18N = {
       "Kế thừa Đồng thuận AI4Health 2025, AI4HEALTH 2026 tập trung vào triển khai và đánh giá AI trong hệ thống y tế Việt Nam.",
     overviewP2:
       "Đại biểu sẽ thảo luận về kết quả lâm sàng, kinh tế và xã hội, chia sẻ bài học từ các dự án thí điểm và tìm kiếm cơ hội hợp tác giữa cơ quan quản lý, viện nghiên cứu, trường đại học, bệnh viện, doanh nghiệp và tổ chức quốc tế.",
-    programKicker: "Chương trình dự kiến",
+    programKicker: "Chương trình",
     programTitle: "Ứng dụng lâm sàng, bằng chứng và triển khai",
     programIntro:
-      "Chương trình dự kiến theo Thông báo lần 2. Phiên tiền hội nghị và toàn thể tại Hội trường Nguyễn Văn Đạo; các phiên chuyên đề song song tại Nhà D2, ĐHQGHN, 144 Xuân Thủy, Hà Nội. Lịch trình sử dụng giờ Hà Nội (UTC+7).",
+      "Chương trình chính thức theo Giấy mời hội nghị. Phiên tiền hội nghị và toàn thể tại Hội trường Nguyễn Văn Đạo; các phiên chuyên đề song song tại Nhà D2, ĐHQGHN, 144 Xuân Thủy, Hà Nội. Lịch trình sử dụng giờ Hà Nội (UTC+7).",
     tracksKicker: "Các chủ đề khoa học",
     tracksTitle: "Các chủ đề mời báo cáo",
     tracksIntro: "Hội nghị mời gửi bài theo 14 chủ đề. Chương trình dự kiến có sáu phiên chuyên đề song song, chia thành hai khung giờ buổi chiều.",
@@ -226,37 +224,6 @@ const CONTENT = {
       {
         title: "Preparing for wider adoption",
         text: "Plan hospital pilots through AI Health Sandbox Vietnam and identify solutions with potential for wider use in Vietnam's health system.",
-      },
-    ],
-    program: [
-      {
-        title: "Day 1 · 23 October 2026",
-        note: "Pre-conference: AI in practice and implementation readiness. Nguyen Van Dao Hall, VNU, 144 Xuan Thuy, Hanoi.",
-        sessions: [
-          ["13:00–13:30", "Delegate reception and exhibition tour", "Visit the AI in healthcare exhibition."],
-          ["13:30–13:35", "Pre-conference introduction"],
-          ["13:35–15:00", "Session 1: AI in medical and pharmaceutical practice", "2026 update."],
-          ["15:00–15:15", "Tea break"],
-          ["15:15–16:45", "Session 2: AI in research and health systems"],
-        ],
-      },
-      {
-        title: "Day 2 · 24 October 2026",
-        note: "Morning plenary sessions at Nguyen Van Dao Hall; afternoon parallel sessions in Building D2, VNU, 144 Xuan Thuy, Hanoi.",
-        sessions: [
-          ["07:30–08:00", "Delegate reception and exhibition tour", "Visit the AI in healthcare exhibition."],
-          ["08:00–08:30", "Opening ceremony"],
-          ["08:30–10:00", "Plenary 1: AI in health systems", "From potential to practical deployment."],
-          ["10:00–10:15", "Tea break"],
-          ["10:15–11:45", "Plenary 2: From AI performance to proven impact"],
-          ["13:30–14:40", "Parallel sessions 1–3", "1. AI in clinical practice; 2. AI for primary care, public health, and mental health; 3. Data, digital infrastructure, and AI integration in health systems."],
-          ["14:40–14:55", "Tea break"],
-          ["14:55–16:05", "Parallel sessions 4–6", "4. AI in precision medicine, diagnostics, and pharmacy; 5. AI in medical education and health workforce development; 6. Governance, safety, and value of healthcare AI."],
-          ["16:05–16:15", "Tea break"],
-          ["16:15–16:27", "Scientific synthesis of the six parallel sessions"],
-          ["16:27–16:35", "AI4Health 2026 call to action"],
-          ["16:35–16:40", "Closing ceremony"],
-        ],
       },
     ],
     topics: [
@@ -329,37 +296,6 @@ const CONTENT = {
       {
         title: "Chuẩn bị cho việc nhân rộng",
         text: "Xây dựng kế hoạch thí điểm tại bệnh viện thông qua AI Health Sandbox Vietnam và xác định các giải pháp có tiềm năng nhân rộng trong hệ thống y tế Việt Nam.",
-      },
-    ],
-    program: [
-      {
-        title: "Ngày 1 · 23/10/2026",
-        note: "Tiền hội nghị: AI trong thực tiễn và sẵn sàng triển khai. Hội trường Nguyễn Văn Đạo, ĐHQGHN, 144 Xuân Thủy, Hà Nội.",
-        sessions: [
-          ["13:00–13:30", "Đón tiếp đại biểu và tham quan triển lãm", "Tham quan khu trưng bày AI trong y tế."],
-          ["13:30–13:35", "Giới thiệu phiên tiền hội nghị"],
-          ["13:35–15:00", "Phiên 1: AI trong thực hành Y – Dược", "Cập nhật năm 2026."],
-          ["15:00–15:15", "Giải lao"],
-          ["15:15–16:45", "Phiên 2: AI trong nghiên cứu và hệ thống y tế"],
-        ],
-      },
-      {
-        title: "Ngày 2 · 24/10/2026",
-        note: "Buổi sáng: phiên toàn thể tại Hội trường Nguyễn Văn Đạo. Buổi chiều: chuyên đề song song tại Nhà D2, ĐHQGHN, 144 Xuân Thủy, Hà Nội.",
-        sessions: [
-          ["07:30–08:00", "Đón tiếp đại biểu và tham quan triển lãm", "Tham quan khu trưng bày AI trong y tế."],
-          ["08:00–08:30", "Lễ khai mạc"],
-          ["08:30–10:00", "Phiên toàn thể 1: AI trong hệ thống y tế", "Từ tiềm năng đến triển khai thực tế."],
-          ["10:00–10:15", "Giải lao"],
-          ["10:15–11:45", "Phiên toàn thể 2: Từ hiệu năng AI đến tác động được kiểm chứng"],
-          ["13:30–14:40", "Các phiên chuyên đề song song 1–3", "1. AI trong thực hành lâm sàng; 2. AI cho y tế cơ sở, sức khỏe cộng đồng và sức khỏe tâm thần; 3. Dữ liệu, hạ tầng số và tích hợp AI trong hệ thống y tế."],
-          ["14:40–14:55", "Giải lao"],
-          ["14:55–16:05", "Các phiên chuyên đề song song 4–6", "4. AI trong y học chính xác, chẩn đoán và Dược; 5. AI trong giáo dục y khoa và phát triển nhân lực y tế; 6. Quản trị, an toàn và giá trị của AI y tế."],
-          ["16:05–16:15", "Giải lao"],
-          ["16:15–16:27", "Tổng hợp khoa học sáu phiên chuyên đề"],
-          ["16:27–16:35", "Thông điệp hành động AI4Health 2026"],
-          ["16:35–16:40", "Bế mạc hội nghị"],
-        ],
       },
     ],
     topics: [
@@ -719,26 +655,6 @@ function renderCards(containerId, items, labelForIndex) {
   });
 }
 
-function renderProgram(lang) {
-  const container = document.getElementById("programGrid");
-  container.replaceChildren();
-  CONTENT[lang].program.forEach((day) => {
-    const article = el("article", "program-day");
-    article.append(el("h3", "", day.title));
-    article.append(el("p", "", day.note));
-    const list = el("div", "session-list");
-    day.sessions.forEach(([time, title, text]) => {
-      const session = el("div", "session");
-      session.append(el("time", "", time));
-      session.append(el("strong", "", title));
-      if (text) session.append(el("p", "", text));
-      list.append(session);
-    });
-    article.append(list);
-    container.append(article);
-  });
-}
-
 function renderRequirements(lang) {
   const container = document.getElementById("cfpRequirements");
   container.replaceChildren();
@@ -806,7 +722,6 @@ function render(lang) {
   renderCards("objectives", CONTENT[lang].objectives);
   renderCards("topicsGrid", CONTENT[lang].topics, () => I18N[lang].topicLabel);
   renderCards("deliverablesGrid", CONTENT[lang].deliverables);
-  renderProgram(lang);
   renderRequirements(lang);
   renderCommittees(lang);
 }

@@ -328,7 +328,6 @@ h3 {
 .qr-card,
 .contact-card,
 .info-card,
-.program-day,
 .committee-panel {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -550,35 +549,12 @@ h3 {
   font-weight: 700;
 }
 
-.program-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-}
-
-.program-day {
-  padding: 1.2rem;
-}
-
-.program-day h3 {
-  color: var(--teal-dark);
-}
-
-.program-day > p {
-  margin: 0.35rem 0 1rem;
-  color: var(--muted);
-}
-
 .invitation-gallery {
-  margin-bottom: 2.4rem;
+  margin-bottom: 0;
 }
 
 .invitation-gallery h3 {
   color: var(--teal-dark);
-  margin: 0 0 0.35rem;
-}
-
-.invitation-gallery .section-note {
   margin: 0 0 1.1rem;
 }
 
@@ -613,36 +589,6 @@ h3 {
   color: var(--muted);
   font-size: 0.9rem;
   border-top: 1px solid var(--line);
-}
-
-.session-list {
-  display: grid;
-  gap: 0.7rem;
-}
-
-.session {
-  padding: 0.85rem;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  background: #fbfdfc;
-}
-
-.session time {
-  display: block;
-  margin-bottom: 0.2rem;
-  color: var(--gold);
-  font-weight: 850;
-  font-size: 0.84rem;
-}
-
-.session strong {
-  display: block;
-}
-
-.session p {
-  margin: 0.3rem 0 0;
-  color: var(--muted);
-  font-size: 0.92rem;
 }
 
 .requirements {
@@ -864,8 +810,7 @@ td {
 
   .hero-grid,
   .split,
-  .contact-grid,
-  .program-grid {
+  .contact-grid {
     grid-template-columns: minmax(0, 1fr);
   }
 
