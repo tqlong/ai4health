@@ -569,6 +569,56 @@ h3 {
   color: var(--muted);
 }
 
+.invitation-gallery {
+  margin-bottom: 2.4rem;
+}
+
+.invitation-gallery h3 {
+  color: var(--teal-dark);
+  margin: 0 0 0.35rem;
+}
+
+.invitation-gallery .section-note {
+  margin: 0 0 1.1rem;
+}
+
+.invitation-pages {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.invitation-page {
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.invitation-page:first-child {
+  grid-column: 1 / -1;
+}
+
+.invitation-page a {
+  display: block;
+}
+
+.invitation-page img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.invitation-page figcaption {
+  margin: 0;
+  padding: 0.75rem 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  border-top: 1px solid var(--line);
+}
+
 .session-list {
   display: grid;
   gap: 0.7rem;
@@ -831,6 +881,10 @@ td {
 }
 
 @media (max-width: 640px) {
+  .invitation-pages {
+    grid-template-columns: 1fr;
+  }
+
   .conference-countdown {
     padding: 1.2rem;
   }
