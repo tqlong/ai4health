@@ -14,6 +14,11 @@ const I18N = {
     submitEmail: "Email your submission",
     viewProgram: "View program",
     viewCfp: "Submission guidelines",
+    viewInvitationLetter: "Invitation letter (Vietnamese PDF)",
+    invitationLetterHref: "asset/Thư mời AI4Health 2026.pdf",
+    programInvitationNote:
+      "The official invitation letter includes the detailed program for both days and the registration QR code.",
+    programInvitationLink: "Download the invitation letter (PDF, Vietnamese)",
     whenLabel: "When",
     whenValue: "23–24 October 2026",
     whereLabel: "Where",
@@ -103,6 +108,11 @@ const I18N = {
     submitEmail: "Gửi bài qua email",
     viewProgram: "Xem chương trình",
     viewCfp: "Hướng dẫn gửi bài",
+    viewInvitationLetter: "Giấy mời hội nghị (PDF)",
+    invitationLetterHref: "asset/Thư mời AI4Health 2026.pdf",
+    programInvitationNote:
+      "Giấy mời chính thức kèm chương trình chi tiết hai ngày và mã QR đăng ký tham dự.",
+    programInvitationLink: "Tải Giấy mời hội nghị (PDF)",
     whenLabel: "Thời gian",
     whenValue: "23–24/10/2026",
     whereLabel: "Địa điểm",
