@@ -52,6 +52,7 @@ const I18N = {
     overviewP2:
       "Participants will examine clinical, economic, and social outcomes, share lessons from pilot projects, and explore cooperation across government, universities, hospitals, businesses, and international organizations.",
     programKicker: "Program",
+    chairsLabel: "Chairs",
     programTitle: "Clinical applications, evidence, and implementation",
     programIntro:
       "Official program as published in the invitation letter. The pre-conference and plenary sessions are at Nguyen Van Dao Hall; parallel sessions are in Building D2, VNU, 144 Xuan Thuy, Hanoi. All times are Hanoi time (UTC+7).",
@@ -157,6 +158,7 @@ const I18N = {
     overviewP2:
       "Đại biểu sẽ thảo luận về kết quả lâm sàng, kinh tế và xã hội, chia sẻ bài học từ các dự án thí điểm và tìm kiếm cơ hội hợp tác giữa cơ quan quản lý, viện nghiên cứu, trường đại học, bệnh viện, doanh nghiệp và tổ chức quốc tế.",
     programKicker: "Chương trình",
+    chairsLabel: "Chủ tọa",
     programTitle: "Ứng dụng lâm sàng, bằng chứng và triển khai",
     programIntro:
       "Chương trình chính thức theo Giấy mời hội nghị. Phiên tiền hội nghị và toàn thể tại Hội trường Nguyễn Văn Đạo; các phiên chuyên đề song song tại Nhà D2, ĐHQGHN, 144 Xuân Thủy, Hà Nội. Lịch trình sử dụng giờ Hà Nội (UTC+7).",
@@ -355,6 +357,335 @@ const CONTENT = {
     ],
     table: { name: "Họ và tên", affiliation: "Chức vụ, đơn vị công tác", role: "Vai trò" },
   },
+};
+
+const PROGRAM = {
+  en: [
+    {
+      title: "Friday 23 October 2026 · Afternoon · Pre-conference",
+      venue: "Nguyen Van Dao Hall, 144 Xuan Thuy, Cau Giay, Hanoi",
+      parts: [
+        {
+          heading: "Pre-conference Session 1: AI in medical and pharmaceutical practice: 2026 update",
+          chairs: "Assoc. Prof. Dr. Dinh Doan Long, Prof. Dr. Nguyen Linh Trung, Assoc. Prof. Dr. Bui Thu Lam",
+          talks: [
+            ["13:30–13:50", "AI in clinical practice: From diagnostic support to clinical decision support", "Assoc. Prof. Dr. Nguyen Le Bao Tien, University of Medicine and Pharmacy Hospital, Linh Dam Campus"],
+            ["13:50–14:10", "Applications of AI in diagnostic imaging", "Assoc. Prof. Dr. Le Thanh Dung, University of Medicine and Pharmacy, VNU"],
+            ["14:10–14:30", "AI in scientific research and drug development: Potential, risks, and design directions", "Prof. Dr. Nguyen Thanh Hai, University of Medicine and Pharmacy, VNU"],
+            ["14:30–14:50", "Generative models for medical imaging: Problems, methods, and research directions", "Dr. Tran Quoc Long, University of Engineering and Technology, VNU"],
+            ["14:50–15:00", "Discussion: How far is AI changing medical and pharmaceutical practice, and what remains expectation?"],
+            ["15:00–15:15", "Tea break"],
+          ],
+        },
+        {
+          heading: "Pre-conference Session 2: AI in research and health systems",
+          chairs: "Assoc. Prof. Dr. Nguyen Long Giang, Assoc. Prof. Dr. Pham Nhu Hai, Dr. Pham Huy Hieu",
+          talks: [
+            ["15:15–15:35", "AI in health-sciences research: From research questions to data analysis and publication", "Dr. Nguyen Viet Hai, University of Medicine and Pharmacy, VNU"],
+            ["15:35–15:55", "AI in hospital management: From process automation to governance and decision support", "Assoc. Prof. Dr. Vu Van Giap, Deputy Director, Bach Mai Hospital"],
+            ["15:55–16:15", "AI governance in healthcare: Data, ethics, safety, and accountability", "MSc. Nguyen Truong Nam, National Health Information Center, Ministry of Health"],
+            ["16:15–16:35", "From AI Innovation to Trusted Healthcare: Advancing Safe and Effective AI in Research and Clinical Practices", "Dr. Pham Huy Hieu, VinUniversity"],
+            ["16:35–16:45", "Discussion: From research to systems: What must Vietnam prepare to use AI safely and effectively?"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Saturday 24 October 2026 · Morning · Plenary sessions",
+      venue: "Nguyen Van Dao Hall, 144 Xuan Thuy, Cau Giay, Hanoi",
+      parts: [
+        {
+          talks: [["08:00–08:30", "Opening ceremony"]],
+        },
+        {
+          heading: "Plenary 1: AI in health systems: From potential to real-world deployment",
+          chairs: "Prof. Dr. Le Ngoc Thanh, Assoc. Prof. Dr. Nguyen Viet Nhung, Prof. Dr. Le Sy Vinh",
+          talks: [
+            ["08:30–08:50", "The Future of Global Health in the AI Era: Opportunities, Challenges and Implications for Developing Countries", "Prof. Shenglan Tang, Duke Kunshan University"],
+            ["08:50–09:10", "End-to-end AI as the sixth step: Lessons from real-world AI deployment at border-area health facilities", "Dr. Nguyen Tan Huy (Specialist II), Tinh Bien Medical Center, An Giang Province"],
+            ["09:10–09:30", "AI for smart healthcare: Vietnamese intelligence, Vietnamese data, for Vietnamese health", "Assoc. Prof. Dr. Nguyen Phi Le, Hanoi University of Science and Technology"],
+            ["09:30–09:50", "From 1,000 Vietnamese genomes to personalized medicine: The power of AI and big data", "Dr. Vo Sy Nam, VinUniversity"],
+            ["09:50–10:00", "Discussion: What determines whether AI can truly work in a health system?"],
+            ["10:00–10:15", "Tea break"],
+          ],
+        },
+        {
+          heading: "Plenary 2: From AI performance to verified impact",
+          chairs: "Prof. Dr. Nguyen Thanh Thuy, Assoc. Prof. Dr. Vu Van Giap, Assoc. Prof. Dr. Nguyen Phi Le",
+          talks: [
+            ["10:15–10:35", "Designing and applying agentic AI in health interventions and services", "Prof. Dr. Tran Xuan Bach, University of Medicine and Pharmacy, VNU"],
+            ["10:35–10:55", "Beyond accuracy: How should the clinical effectiveness of healthcare AI be evaluated?", "Assoc. Prof. Dr. Dao Viet Hang, Hanoi Medical University"],
+            ["10:55–11:15", "Can We Trust AI Answers? From Medical Knowledge to Verifiable Evidence", "Prof. Dr. Le Sy Vinh, Dr. Le Duc Trong, University of Engineering and Technology, VNU"],
+            ["11:15–11:35", "An evidence framework for evaluating healthcare AI before scale-up: From clinical benefit to system value", "Assoc. Prof. Dr. Nguyen Viet Nhung, University of Medicine and Pharmacy, VNU"],
+            ["11:35–11:45", "Discussion: When is AI ready to scale?"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Saturday 24 October 2026 · Afternoon · Parallel sessions, Room 902",
+      venue: "Room 902, Building D2, 144 Xuan Thuy, Cau Giay, Hanoi",
+      parts: [
+        {
+          heading: "Session 1: AI in clinical practice",
+          time: "13:30–14:55",
+          chairs: "Prof. Dr. Le Minh Ky, Assoc. Prof. Dr. Do Ngoc Son, Dr. Pham Huy Hieu",
+          talks: [
+            [null, "AI diagnosis of psoriasis from clinical images in Vietnam", "Dr. Nguyen Tran Hai Anh, University of Medicine and Pharmacy, VNU"],
+            [null, "A nomogram-based AI model for preoperative risk prediction of ovarian cancer", "Dr. Nguyen Phuong Tu, Hanoi Medical University"],
+            [null, "An AI-assisted online prediction model for estimating complication risk after CT-guided percutaneous transthoracic lung biopsy", "Dr. Nguyen Van Viet Thanh (Specialist II), Binh Dan Hospital"],
+            [null, "Comparing major adverse cardiac event risk stratification in emergency chest-pain patients: An AI-based system versus traditional scores", "Assoc. Prof. Dr. Do Ngoc Son, Bach Mai Hospital"],
+            [null, "Out-of-distribution detection in skin lesion classification using Mahalanobis distance and logit dispersion analysis", "Tran Duc Vinh, Hanoi University of Science and Technology"],
+            [null, "Discussion: When is model performance sufficient to bring AI into clinical practice?"],
+            ["14:55–15:10", "Tea break"],
+          ],
+        },
+        {
+          heading: "Session 2: AI in precision medicine, diagnostics, and pharmacy",
+          time: "15:10–16:35",
+          chairs: "Prof. Dr. Nguyen Thanh Hai, Assoc. Prof. Dr. Dao Viet Hang, Dr. Vo Sy Nam",
+          talks: [
+            [null, "Assessing drug resistance of Mycobacterium tuberculosis strains in Vietnam using genomic data and machine learning", "Dr. Duong Thi Thu Ha, University of Medicine and Pharmacy, VNU"],
+            [null, "Anatomy-guided echocardiography video synthesis with conditional diffusion models", "MSc. Nguyen Van Phi, University of Engineering and Technology, VNU"],
+            [null, "The role of diagnostic imaging in assessing lesions and guiding treatment of thyroid cancer", "Dr. Trinh Tu Tam, Hong Ngoc General Hospital, Phuc Truong Minh"],
+            [null, "From AI models to health impact: Evaluating the transfer from proxy labels to phenotypes in hearing health", "Assoc. Prof. Dr. Hoang Vinh Sinh, Hanoi University of Science and Technology"],
+            [null, "Adaptive Evidence Graphs for Drug Repurposing in Parkinson's Disease", "Dr. Cao Anh Tuan, Life AI and Genetica"],
+            [null, "Discussion: From prediction to treatment decisions: What evidence is still missing?"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Saturday 24 October 2026 · Afternoon · Parallel sessions, Room 401",
+      venue: "Room 401, Building D2, 144 Xuan Thuy, Cau Giay, Hanoi",
+      parts: [
+        {
+          heading: "Session 1: AI for primary care, public health, and mental health",
+          time: "13:30–14:55",
+          chairs: "Assoc. Prof. Dr. Nguyen Viet Nhung, Assoc. Prof. Dr. Pham Xuan Da, Assoc. Prof. Dr. Le Thanh Ha",
+          talks: [
+            [null, "AI-assisted preliminary screening for obstructive sleep apnea using overnight SpO₂ in Lam Dong", "Prof. Dr. Duong Quy Sy, University of Medicine and Pharmacy, VNU"],
+            [null, "Developing an AI agent to support pharmacists in community pharmacies: Clinical, management, and continuing-education perspectives", "Dr. Hoang Le Son, University of Medicine and Pharmacy, VNU"],
+            [null, "A machine-learning model for classifying anxiety and depression severity using GAD-7 and PHQ-9 in Vietnamese adults", "MSc. Ngo Thi Tam, Ton Duc Thang University"],
+            [null, "Machine learning for predicting depression, anxiety, and poor sleep quality among medical students", "Nguyen Viet Thanh, Hanoi Medical University"],
+            [null, "Towards AI-assisted multimodal suicide risk assessment in Vietnam: Integrating clinical data, psychological tests, and inflammatory markers", "Dr. Nguyen Viet Chung, University of Medicine and Pharmacy, VNU"],
+            [null, "Discussion: Which AI is suitable for piloting at primary-care and community levels?"],
+            ["14:55–15:10", "Tea break"],
+          ],
+        },
+        {
+          heading: "Session 2: AI in medical education and health workforce development",
+          time: "15:10–16:35",
+          chairs: "Assoc. Prof. Dr. Do Anh Tien, Assoc. Prof. Dr. Vu Thi Thom, Assoc. Prof. Dr. Bui Thu Lam",
+          talks: [
+            [null, "Studying medicine in the AI era: Current use, opportunities, and needs of Vietnamese health-sciences students", "Trinh Thi Dieu Thuy, University of Medicine and Pharmacy, VNU"],
+            [null, "AI readiness and AI training needs of health-sciences students in Vietnam", "Tran Ngoc Anh, Hanoi Medical University"],
+            [null, "Designing an LLM-based ophthalmology case-simulation framework: Proposal and feasibility assessment through expert consultation", "MSc. Tran Van Nam, Thang Long University"],
+            [null, "Generative AI for authoring and quality control of NBME-style clinical-vignette questions assessing higher-order thinking, aligned with learning outcomes, at Pham Ngoc Thach University of Medicine", "Nguyen Quang Tung, Pham Ngoc Thach University of Medicine"],
+            [null, "Grounded and explainable multimodal AI for medical visual question answering", "Tran Van Trung, University of Engineering and Technology, VNU"],
+            [null, "An ecosystem of IT and AI solutions for medical education: From vision to real impact", "Eng. Nguyen Vinh Huy, Duy Tan University"],
+            [null, "Discussion: Which AI competencies should enter health workforce training from 2027?"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Saturday 24 October 2026 · Afternoon · Parallel sessions, Room 301",
+      venue: "Room 301, Building D2, 144 Xuan Thuy, Cau Giay, Hanoi",
+      parts: [
+        {
+          heading: "Session 1: Data, digital infrastructure, and AI integration in health systems",
+          time: "13:30–14:55",
+          chairs: "Prof. Dr. Chu Duc Trinh, Dr. Tran Quoc Long, Assoc. Prof. Dr. Nguyen Le Bao Tien",
+          talks: [
+            [null, "An explainable data-validation tool for assessing the AI readiness of hospital data in Vietnam", "MSc. Gautam Dev Raj, Oxford University Clinical Research Unit (OUCRU)"],
+            [null, "Building a trusted AI platform and digital workspace for the health sector", "Dr. Hoang Le Minh, Van Lang University"],
+            [null, "A telemedicine agent for healthcare: A remote consultation model integrating devices and AI for Vietnam's health system", "Vu Hoang Thuong, MedTech HOPT"],
+            [null, "Establishing and refining real-time AI in gastrointestinal endoscopy", "Eng. Do Viet Anh, Thu Cuc International General Hospital"],
+            [null, "Closing the sim-to-real gap: Infrastructure and interaction barriers for autonomous medical robots", "Assoc. Prof. Dr. Quan Thanh Tho, Ho Chi Minh City University of Technology, VNU-HCM"],
+            [null, "Discussion: How ready is Vietnam's health data for AI?"],
+            ["14:55–15:10", "Tea break"],
+          ],
+        },
+        {
+          heading: "Session 2: Governance, safety, and value of healthcare AI",
+          time: "15:10–16:35",
+          chairs: "Prof. Dr. Tran Xuan Bach, Dr. Ong The Due, Assoc. Prof. Dr. Nguyen Long Giang",
+          talks: [
+            [null, "Mapping AI Governance Requirements in Health using AI-Assisted Guideline Knowledge Base", "Dr. Ngo Dinh Phuong, Norwegian Centre for E-health Research"],
+            [null, "EvalAI: A system for verifying and quantifying AI hallucination in Vietnamese digital health: A multidimensional evaluation framework and the MPVS benchmark for clinical AI", "Vu Hoang Thuong, MedTech HOPT"],
+            [null, "ReLIFE: Privacy-First Artificial Intelligence Platform for Mental Health Support among Generation Z in Vietnam", "Duong Quoc Trung, International University, VNU-HCM"],
+            [null, "Health technology assessment for AI: From clinical effectiveness to cost-effectiveness and budget impact", "Dr. Phung Lam Toi, University of Medicine and Pharmacy, VNU"],
+            [null, "From evidence to payment: Procurement, reimbursement, and scale-up decisions for AI in the health system", "Dr. Ong The Due, Health Strategy and Policy Institute, Ministry of Health"],
+            [null, "Discussion: What evidence does Vietnam need before investing in and paying for AI?"],
+          ],
+        },
+      ],
+    },
+  ],
+  vi: [
+    {
+      title: "Thứ Sáu, 23/10/2026 · Buổi chiều · Phiên tiền hội nghị",
+      venue: "Hội trường Nguyễn Văn Đạo, 144 Xuân Thủy, Cầu Giấy, Hà Nội",
+      parts: [
+        {
+          heading: "Phiên tiền hội nghị 1: AI trong thực hành Y – Dược: Cập nhật 2026",
+          chairs: "PGS.TS. Đinh Đoàn Long, GS.TS. Nguyễn Linh Trung, PGS.TS. Bùi Thu Lâm",
+          talks: [
+            ["13:30–13:50", "AI trong thực hành lâm sàng: Từ hỗ trợ chẩn đoán đến hỗ trợ quyết định lâm sàng", "PGS.TS. Nguyễn Lê Bảo Tiến, Bệnh viện Đại học Y Dược – cơ sở Linh Đàm"],
+            ["13:50–14:10", "Ứng dụng của AI trong chẩn đoán hình ảnh", "PGS.TS.BS. Lê Thanh Dũng, Trường Đại học Y Dược, ĐHQGHN"],
+            ["14:10–14:30", "Trí tuệ nhân tạo trong nghiên cứu khoa học và phát triển dược phẩm: Tiềm năng, rủi ro và định hướng thiết kế", "GS.TS. Nguyễn Thanh Hải, Trường Đại học Y Dược, ĐHQGHN"],
+            ["14:30–14:50", "Mô hình sinh dữ liệu cho hình ảnh y học: Bài toán, phương pháp và một số định hướng nghiên cứu", "TS. Trần Quốc Long, Trường Đại học Công nghệ, ĐHQGHN"],
+            ["14:50–15:00", "Thảo luận: AI đang thay đổi thực hành Y – Dược đến đâu, và đâu vẫn chỉ là kỳ vọng?"],
+            ["15:00–15:15", "Giải lao"],
+          ],
+        },
+        {
+          heading: "Phiên tiền hội nghị 2: AI trong nghiên cứu và hệ thống y tế",
+          chairs: "PGS.TS. Nguyễn Long Giang, PGS.TS. Phạm Như Hải, TS. Phạm Huy Hiệu",
+          talks: [
+            ["15:15–15:35", "Ứng dụng AI trong nghiên cứu khoa học khối ngành sức khỏe: Từ câu hỏi nghiên cứu đến phân tích dữ liệu và công bố khoa học", "TS.BS. Nguyễn Viết Hải, Trường Đại học Y Dược, ĐHQGHN"],
+            ["15:35–15:55", "AI trong quản lý bệnh viện: Từ tự động hóa quy trình đến hỗ trợ quản trị và ra quyết định", "PGS.TS. Vũ Văn Giáp, Phó Giám đốc Bệnh viện Bạch Mai"],
+            ["15:55–16:15", "Quản trị AI trong y tế: Dữ liệu, đạo đức, an toàn và trách nhiệm", "ThS. Nguyễn Trường Nam, Trung tâm Thông tin Y tế Quốc gia, Bộ Y tế"],
+            ["16:15–16:35", "From AI Innovation to Trusted Healthcare: Advancing Safe and Effective AI in Research and Clinical Practices", "TS. Phạm Huy Hiệu, VinUniversity"],
+            ["16:35–16:45", "Thảo luận: Từ nghiên cứu đến hệ thống – Việt Nam cần chuẩn bị gì để sử dụng AI an toàn và hiệu quả?"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Thứ Bảy, 24/10/2026 · Buổi sáng · Phiên toàn thể",
+      venue: "Hội trường Nguyễn Văn Đạo, 144 Xuân Thủy, Cầu Giấy, Hà Nội",
+      parts: [
+        {
+          talks: [["08:00–08:30", "Lễ khai mạc"]],
+        },
+        {
+          heading: "Phiên toàn thể 1: AI trong hệ thống y tế: Từ tiềm năng đến triển khai thực tế",
+          chairs: "GS.TS. Lê Ngọc Thành, PGS.TS. Nguyễn Viết Nhung, GS.TS. Lê Sỹ Vinh",
+          talks: [
+            ["08:30–08:50", "The Future of Global Health in the AI Era: Opportunities, Challenges and Implications for Developing Countries", "GS. Shenglan Tang, Duke Kunshan University"],
+            ["08:50–09:10", "AI toàn trình là bước thứ sáu: Bài học từ triển khai AI thực tế tại một số cơ sở y tế vùng biên giới", "BSCKII. Nguyễn Tấn Huy, Trung tâm Y tế Tịnh Biên, tỉnh An Giang"],
+            ["09:10–09:30", "AI cho Y tế thông minh: Trí tuệ Việt – Dữ liệu Việt – Vì sức khỏe người Việt", "PGS.TS. Nguyễn Phi Lê, Đại học Bách khoa Hà Nội"],
+            ["09:30–09:50", "Từ 1000 hệ gen người Việt đến y học cá thể hóa: Sức mạnh của AI và dữ liệu lớn", "TS. Võ Sỹ Nam, VinUniversity"],
+            ["09:50–10:00", "Thảo luận: Điều gì quyết định AI có thể thực sự hoạt động trong hệ thống y tế?"],
+            ["10:00–10:15", "Giải lao"],
+          ],
+        },
+        {
+          heading: "Phiên toàn thể 2: Từ hiệu năng AI đến tác động được kiểm chứng",
+          chairs: "GS.TS. Nguyễn Thanh Thủy, PGS.TS. Vũ Văn Giáp, PGS.TS. Nguyễn Phi Lê",
+          talks: [
+            ["10:15–10:35", "Thiết kế và ứng dụng trí tuệ nhân tạo tác tử (Agentic AI) trong can thiệp và dịch vụ y tế", "GS.TS. Trần Xuân Bách, Trường Đại học Y Dược, ĐHQGHN"],
+            ["10:35–10:55", "Vượt ra ngoài độ chính xác: Đánh giá hiệu quả lâm sàng của AI y tế như thế nào?", "PGS.TS. Đào Việt Hằng, Trường Đại học Y Hà Nội"],
+            ["10:55–11:15", "Can We Trust AI Answers? From Medical Knowledge to Verifiable Evidence", "GS.TS. Lê Sỹ Vinh, TS. Lê Đức Trọng, Trường Đại học Công nghệ, ĐHQGHN"],
+            ["11:15–11:35", "Khung bằng chứng đánh giá AI y tế trước quyết định nhân rộng: Từ lợi ích lâm sàng đến giá trị hệ thống", "PGS.TS. Nguyễn Viết Nhung, Trường Đại học Y Dược, ĐHQGHN"],
+            ["11:35–11:45", "Thảo luận: Khi nào AI đã sẵn sàng để nhân rộng?"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Thứ Bảy, 24/10/2026 · Buổi chiều · Phiên chuyên đề, Hội trường 902",
+      venue: "Hội trường 902 Nhà D2, 144 Xuân Thủy, Cầu Giấy, Hà Nội",
+      parts: [
+        {
+          heading: "Phiên 1: AI trong thực hành lâm sàng",
+          time: "13:30–14:55",
+          chairs: "GS.TS. Lê Minh Kỳ, PGS.TS. Đỗ Ngọc Sơn, TS. Phạm Huy Hiệu",
+          talks: [
+            [null, "AI chẩn đoán bệnh vảy nến bằng hình ảnh lâm sàng tại Việt Nam", "BS. Nguyễn Trần Hải Ánh, Trường Đại học Y Dược, ĐHQGHN"],
+            [null, "Ứng dụng mô hình trí tuệ nhân tạo dạng Nomogram trong tiên lượng nguy cơ ung thư buồng trứng trước phẫu thuật", "TS. Nguyễn Phương Tú, Đại học Y Hà Nội"],
+            [null, "Mô hình dự đoán trực tuyến có hỗ trợ trí tuệ nhân tạo trong ước tính nguy cơ biến chứng sau sinh thiết phổi xuyên thành ngực dưới hướng dẫn chụp cắt lớp vi tính", "TS.BSCKII. Nguyễn Văn Việt Thành, Bệnh viện Bình Dân"],
+            [null, "So sánh kết quả phân tầng nguy cơ biến cố tim mạch chính ở bệnh nhân đau ngực tại Khoa Cấp cứu bằng hệ thống dựa trên trí tuệ nhân tạo với các thang điểm truyền thống", "PGS.TS. Đỗ Ngọc Sơn, Bệnh viện Bạch Mai"],
+            [null, "Phát hiện dữ liệu ngoài phân phối trong phân loại tổn thương da bằng khoảng cách Mahalanobis và phân tích độ phân tán Logit", "Trần Đức Vinh, Đại học Bách khoa Hà Nội"],
+            [null, "Thảo luận: Khi nào hiệu năng mô hình đủ để đưa AI vào thực hành lâm sàng?"],
+            ["14:55–15:10", "Giải lao"],
+          ],
+        },
+        {
+          heading: "Phiên 2: AI trong Y học chính xác, chẩn đoán và Dược",
+          time: "15:10–16:35",
+          chairs: "GS.TS. Nguyễn Thanh Hải, PGS.TS. Đào Việt Hằng, TS. Võ Sỹ Nam",
+          talks: [
+            [null, "Đánh giá tính kháng thuốc của các chủng Mycobacterium tuberculosis tại Việt Nam trên dữ liệu hệ gen và học máy", "TS. Dương Thị Thu Hà, Trường Đại học Y Dược, ĐHQGHN"],
+            [null, "Tổng hợp video siêu âm tim dựa trên giải phẫu bằng mô hình khuếch tán có điều kiện", "ThS. Nguyễn Văn Phi, Trường Đại học Công nghệ, ĐHQGHN"],
+            [null, "Vai trò của chẩn đoán hình ảnh trong đánh giá tổn thương và định hướng điều trị ung thư tuyến giáp", "TS.BS. Trịnh Tú Tâm, Bệnh viện Đa khoa Hồng Ngọc – Phúc Trường Minh"],
+            [null, "Từ mô hình AI hướng tới tác động y tế: Đánh giá chuyển giao từ nhãn đại diện đến kiểu hình trong sức khỏe thính giác", "PGS.TS. Hoàng Vĩnh Sinh, Đại học Bách khoa Hà Nội"],
+            [null, "Adaptive Evidence Graphs for Drug Repurposing in Parkinson's Disease", "TS. Cao Anh Tuấn, Life AI và Genetica"],
+            [null, "Thảo luận: Từ dự đoán đến quyết định điều trị – bằng chứng nào còn thiếu?"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Thứ Bảy, 24/10/2026 · Buổi chiều · Phiên chuyên đề, Hội trường 401",
+      venue: "Hội trường 401 Nhà D2, 144 Xuân Thủy, Cầu Giấy, Hà Nội",
+      parts: [
+        {
+          heading: "Phiên 1: AI cho y tế cơ sở, sức khỏe cộng đồng và sức khỏe tâm thần",
+          time: "13:30–14:55",
+          chairs: "PGS.TS. Nguyễn Viết Nhung, PGS.TS. Phạm Xuân Đà, PGS.TS. Lê Thanh Hà",
+          talks: [
+            [null, "AI hỗ trợ phát hiện sơ bộ ngưng thở tắc nghẽn khi ngủ bằng chỉ số đo SpO₂ ban đêm tại Lâm Đồng", "GS.TS. Dương Quý Sỹ, Trường Đại học Y Dược, ĐHQGHN"],
+            [null, "Phát triển AI Agent hỗ trợ hoạt động dược sĩ tại nhà thuốc: Tiếp cận từ lâm sàng, quản lý và đào tạo liên tục", "TS. Hoàng Lê Sơn, Trường Đại học Y Dược, ĐHQGHN"],
+            [null, "Xây dựng mô hình học máy phân loại mức độ lo âu và trầm cảm dựa trên thang GAD-7 và PHQ-9 ở người trưởng thành Việt Nam", "ThS. Ngô Thị Tâm, Trường Đại học Tôn Đức Thắng"],
+            [null, "Ứng dụng học máy trong dự báo trầm cảm, lo âu và chất lượng giấc ngủ kém ở sinh viên y khoa", "Nguyễn Việt Thành, Trường Đại học Y Hà Nội"],
+            [null, "Hướng tới đánh giá nguy cơ tự sát đa phương thức có hỗ trợ trí tuệ nhân tạo tại Việt Nam: Tích hợp dữ liệu lâm sàng, trắc nghiệm tâm lý và dấu ấn viêm", "TS. Nguyễn Viết Chung, Trường Đại học Y Dược, ĐHQGHN"],
+            [null, "Thảo luận: AI nào phù hợp để thí điểm ở tuyến cơ sở và cộng đồng?"],
+            ["14:55–15:10", "Giải lao"],
+          ],
+        },
+        {
+          heading: "Phiên 2: AI trong giáo dục y khoa và phát triển nhân lực y tế",
+          time: "15:10–16:35",
+          chairs: "PGS.TS. Đỗ Anh Tiến, PGS.TS. Vũ Thị Thơm, PGS.TS. Bùi Thu Lâm",
+          talks: [
+            [null, "Học y trong kỷ nguyên AI: Thực trạng sử dụng, cơ hội và nhu cầu ứng dụng trí tuệ nhân tạo của sinh viên khối khoa học sức khỏe Việt Nam", "Trịnh Thị Diệu Thùy, Trường Đại học Y Dược, ĐHQGHN"],
+            [null, "Năng lực sẵn sàng ứng dụng trí tuệ nhân tạo và nhu cầu đào tạo AI của sinh viên khối khoa học sức khỏe tại Việt Nam", "Trần Ngọc Anh, Trường Đại học Y Hà Nội"],
+            [null, "Thiết kế framework mô phỏng ca lâm sàng nhãn khoa dựa trên mô hình ngôn ngữ lớn: Đề xuất và đánh giá tính khả thi thông qua tham vấn chuyên gia", "ThS. Trần Văn Nam, Trường Đại học Thăng Long"],
+            [null, "Ứng dụng trí tuệ nhân tạo tạo sinh trong biên soạn và kiểm soát chất lượng câu hỏi trắc nghiệm tình huống lâm sàng chuẩn NBME nhằm lượng giá tư duy bậc cao của người học, gắn với chuẩn đầu ra, tại Đại học Y khoa Phạm Ngọc Thạch", "Nguyễn Quang Tùng, Đại học Y khoa Phạm Ngọc Thạch"],
+            [null, "AI đa phương thức cho hỏi đáp trên hình ảnh y tế có căn cứ và giải thích được", "Trần Văn Trung, Trường Đại học Công nghệ, ĐHQGHN"],
+            [null, "Hệ sinh thái giải pháp Công nghệ thông tin và Trí tuệ nhân tạo cho đào tạo y khoa: Từ tầm nhìn đến tác động thực tế", "KS. Nguyễn Vĩnh Huy, Trường Đại học Duy Tân"],
+            [null, "Thảo luận: Năng lực AI nào cần được đưa vào đào tạo nhân lực y tế từ năm 2027?"],
+          ],
+        },
+      ],
+    },
+    {
+      title: "Thứ Bảy, 24/10/2026 · Buổi chiều · Phiên chuyên đề, Hội trường 301",
+      venue: "Hội trường 301 Nhà D2, 144 Xuân Thủy, Cầu Giấy, Hà Nội",
+      parts: [
+        {
+          heading: "Phiên 1: Dữ liệu, hạ tầng số và tích hợp AI trong hệ thống y tế",
+          time: "13:30–14:55",
+          chairs: "GS.TS. Chử Đức Trình, TS. Trần Quốc Long, PGS.TS. Nguyễn Lê Bảo Tiến",
+          talks: [
+            [null, "Công cụ kiểm định dữ liệu có khả năng giải thích nhằm đánh giá mức độ sẵn sàng cho AI của dữ liệu bệnh viện tại Việt Nam", "ThS. Gautam Dev Raj, Đơn vị Nghiên cứu Lâm sàng Đại học Oxford (OUCRU)"],
+            [null, "Xây dựng nền tảng AI tin cậy và không gian làm việc số cho ngành y tế", "TS. Hoàng Lê Minh, Trường Đại học Văn Lang"],
+            [null, "Telemedicine Agent cho Y tế: Mô hình tư vấn khám chữa bệnh từ xa tích hợp thiết bị và AI cho hệ thống y tế Việt Nam", "Vũ Hoàng Thương, MedTech HOPT"],
+            [null, "Thiết lập và hoàn thiện ứng dụng AI thời gian thực vào nội soi tiêu hóa", "KS. Đỗ Việt Anh, Bệnh viện Đa khoa Quốc tế Thu Cúc"],
+            [null, "Thu hẹp khoảng cách \"Mô phỏng – Thực tế\": Rào cản hạ tầng và tương tác của robot y tế tự hành", "PGS.TS. Quản Thành Thơ, Trường Đại học Bách khoa, Đại học Quốc gia TP.HCM"],
+            [null, "Thảo luận: Dữ liệu y tế Việt Nam đã sẵn sàng cho AI đến đâu?"],
+            ["14:55–15:10", "Giải lao"],
+          ],
+        },
+        {
+          heading: "Phiên 2: Quản trị, an toàn và giá trị của AI y tế",
+          time: "15:10–16:35",
+          chairs: "GS.TS. Trần Xuân Bách, TS.BS. Ong Thế Duệ, PGS.TS. Nguyễn Long Giang",
+          talks: [
+            [null, "Mapping AI Governance Requirements in Health using AI-Assisted Guideline Knowledge Base", "TS. Ngô Đình Phương, Norwegian Centre for E-health Research"],
+            [null, "EvalAI – Hệ thống kiểm chứng và định lượng ảo giác AI trong Y tế số Việt Nam: Khung đánh giá đa chiều và điểm chuẩn MPVS cho AI lâm sàng", "Vũ Hoàng Thương, MedTech HOPT"],
+            [null, "ReLIFE: Privacy-First Artificial Intelligence Platform for Mental Health Support among Generation Z in Vietnam", "Dương Quốc Trung, Trường Đại học Quốc tế, Đại học Quốc gia TP.HCM"],
+            [null, "Đánh giá công nghệ y tế đối với AI: Từ hiệu quả lâm sàng đến hiệu quả chi phí và tác động ngân sách", "TS. Phùng Lâm Tới, Trường Đại học Y Dược, ĐHQGHN"],
+            [null, "Từ bằng chứng đến chi trả: Mua sắm, thanh toán và quyết định nhân rộng AI trong hệ thống y tế", "TS.BS. Ong Thế Duệ, Viện Chiến lược và Chính sách Y tế, Bộ Y tế"],
+            [null, "Thảo luận: Việt Nam cần bằng chứng gì trước khi đầu tư và chi trả cho AI?"],
+          ],
+        },
+      ],
+    },
+  ],
 };
 
 const COMMITTEES = [
@@ -655,6 +986,43 @@ function renderCards(containerId, items, labelForIndex) {
   });
 }
 
+function renderProgram(lang) {
+  const container = document.getElementById("programGrid");
+  container.replaceChildren();
+  PROGRAM[lang].forEach((block) => {
+    const article = el("article", "program-day");
+    article.append(el("h3", "", block.title));
+    article.append(el("p", "program-venue", block.venue));
+    block.parts.forEach((part) => {
+      const section = el("div", "program-part");
+      if (part.heading) {
+        const heading = el("h4", "");
+        if (part.time) heading.append(el("span", "part-time", part.time));
+        heading.append(document.createTextNode(part.heading));
+        section.append(heading);
+      }
+      if (part.chairs) section.append(el("p", "program-chairs", `${I18N[lang].chairsLabel}: ${part.chairs}`));
+      const list = el("div", "session-list");
+      let index = 0;
+      part.talks.forEach(([time, title, speaker]) => {
+        const session = el("div", "session");
+        if (time) {
+          session.append(el("time", "", time));
+        } else {
+          index += 1;
+          session.append(el("span", "session-index", `${index}.`));
+        }
+        session.append(el("strong", "", title));
+        if (speaker) session.append(el("p", "", speaker));
+        list.append(session);
+      });
+      section.append(list);
+      article.append(section);
+    });
+    container.append(article);
+  });
+}
+
 function renderRequirements(lang) {
   const container = document.getElementById("cfpRequirements");
   container.replaceChildren();
@@ -722,6 +1090,7 @@ function render(lang) {
   renderCards("objectives", CONTENT[lang].objectives);
   renderCards("topicsGrid", CONTENT[lang].topics, () => I18N[lang].topicLabel);
   renderCards("deliverablesGrid", CONTENT[lang].deliverables);
+  renderProgram(lang);
   renderRequirements(lang);
   renderCommittees(lang);
 }

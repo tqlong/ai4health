@@ -549,7 +549,92 @@ h3 {
   font-weight: 700;
 }
 
+.program-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.program-day {
+  padding: 1.2rem 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.program-day h3 {
+  color: var(--teal-dark);
+  margin: 0;
+}
+
+.program-venue {
+  margin: 0.3rem 0 0;
+  color: var(--muted);
+}
+
+.program-part {
+  margin-top: 1.1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.program-part h4 {
+  margin: 0;
+  font-size: 1.02rem;
+  color: var(--blue);
+}
+
+.part-time {
+  display: inline-block;
+  margin-right: 0.6rem;
+  color: var(--gold);
+  font-size: 0.86rem;
+  font-weight: 850;
+}
+
+.program-chairs {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.session-list {
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 0.75rem;
+}
+
+.session {
+  display: grid;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  column-gap: 0.75rem;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fbfdfc;
+}
+
+.session time,
+.session-index {
+  color: var(--gold);
+  font-weight: 850;
+  font-size: 0.86rem;
+  padding-top: 0.1rem;
+}
+
+.session strong {
+  display: block;
+}
+
+.session p {
+  grid-column: 2;
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .invitation-gallery {
+  margin-top: 2.4rem;
   margin-bottom: 0;
 }
 
@@ -822,6 +907,15 @@ td {
 }
 
 @media (max-width: 640px) {
+  .session {
+    grid-template-columns: 1fr;
+    row-gap: 0.15rem;
+  }
+
+  .session p {
+    grid-column: 1;
+  }
+
 
   .conference-countdown {
     padding: 1.2rem;
